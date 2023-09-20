@@ -78,6 +78,12 @@
           "label": "Use dashed lines",
           "defaultValue": false,
           "type": "CHECKBOX"
+        },
+        {
+          "id": "seriesLineColor",
+          "label": "Line Color",
+          "type": "COLOR_PICKER", // New element for line color
+          "defaultValue": "#000000" // Default color (black)
         }
       ]
     },
